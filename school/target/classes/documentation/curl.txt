@@ -1,0 +1,30 @@
+curl -X POST --user "lambda-client:lambda-secret" -d "grant_type=password&username=admin&password=password" http://npung-school.herokuapp.com/login
+// {"access_token":"a15f7105-c0a3-4753-bc24-fe22579bdbc1","token_type":"bearer","expires_in":3200,"scope":"read write trust"}%
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/students
+// [{"studid":1,"studname":"John","courses":[{"courseid":1,"coursename":"Data Science","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":4,"coursename":"Java Back End","instructor":{"instructid":2,"instructname":"Lucy"}}]},{"studid":2,"studname":"Julian","courses":[{"courseid":2,"coursename":"JavaScript","instructor":{"instructid":1,"instructname":"Sally"}}]},{"studid":3,"studname":"Mary","courses":[{"courseid":1,"coursename":"Data Science","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":3,"coursename":"Node.js","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":6,"coursename":"Mobile Android","instructor":{"instructid":3,"instructname":"Charlie"}}]},{"studid":4,"studname":"Julian","courses":[]},{"studid":5,"studname":"Tyler","courses":[]},{"studid":6,"studname":"Kim","courses":[]},{"studid":7,"studname":"Juan","courses":[]},{"studid":8,"studname":"Robby","courses":[]},{"studid":9,"studname":"Roberto","courses":[]},{"studid":10,"studname":"Bob","courses":[]},{"studid":11,"studname":"Liz","courses":[]},{"studid":12,"studname":"June","courses":[]},{"studid":13,"studname":"April","courses":[]}]%
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/allstudents
+// [{"studid":1,"studname":"John","courses":[{"courseid":1,"coursename":"Data Science","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":4,"coursename":"Java Back End","instructor":{"instructid":2,"instructname":"Lucy"}}]},{"studid":2,"studname":"Julian","courses":[{"courseid":2,"coursename":"JavaScript","instructor":{"instructid":1,"instructname":"Sally"}}]},{"studid":3,"studname":"Mary","courses":[{"courseid":1,"coursename":"Data Science","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":3,"coursename":"Node.js","instructor":{"instructid":1,"instructname":"Sally"}},{"courseid":6,"coursename":"Mobile Android","instructor":{"instructid":3,"instructname":"Charlie"}}]},{"studid":4,"studname":"Julian","courses":[]},{"studid":5,"studname":"Tyler","courses":[]},{"studid":6,"studname":"Kim","courses":[]},{"studid":7,"studname":"Juan","courses":[]},{"studid":8,"studname":"Robby","courses":[]},{"studid":9,"studname":"Roberto","courses":[]},{"studid":10,"studname":"Bob","courses":[]},{"studid":11,"studname":"Liz","courses":[]},{"studid":12,"studname":"June","courses":[]},{"studid":13,"studname":"April","courses":[]}]%
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/Student/1
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/student/namelike/John
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" -d "{ \"studname\":\"snoopy\" }" http://npung-school.herokuapp.com/students/Student
+
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" -d "{ \"studname\":\"charlie\" }" http://npung-school.herokuapp.com/students/Student/1
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/Student/1
+
+curl -X DELETE -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/students/Student/1
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/courses/courses
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/courses/allcourses
+
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/courses/studcount
+
+curl -X DELETE -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" http://npung-school.herokuapp.com/courses/courses/1
+
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer a15f7105-c0a3-4753-bc24-fe22579bdbc1" -d "{ \"coursename\":\"business\" }" http://npung-school.herokuapp.com/courses/course/add
