@@ -13,6 +13,8 @@ public interface CourseRepository extends PagingAndSortingRepository<Course, Lon
 {
     ArrayList<Course> findCoursesByCoursenameEquals(String name);
 
+    Course findCourseByCourseid(long id);
+
     @Modifying
     @Query(value = "DELETE FROM studcourses WHERE courseid = :courseid", nativeQuery = true)
     void deleteCourseFromStudcourses(long courseid);
