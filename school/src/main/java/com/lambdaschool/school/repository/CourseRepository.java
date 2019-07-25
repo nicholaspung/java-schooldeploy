@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public interface CourseRepository extends PagingAndSortingRepository<Course, Long>
 {

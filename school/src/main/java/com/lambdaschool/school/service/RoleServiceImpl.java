@@ -1,5 +1,6 @@
 package com.lambdaschool.school.service;
 
+import com.lambdaschool.school.exceptions.ResourceNotFoundException;
 import com.lambdaschool.school.model.Role;
 import com.lambdaschool.school.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,19 @@ public class RoleServiceImpl implements RoleService
         return list;
     }
 
+    @Override
+    public Role findByName(String name)
+    {
+        Role rr = rolerepos.findByNameIgnoreCase(name);
 
+        if (rr != null)
+        {
+            return rr;
+        } else
+        {
+            throw new ResourceNotFoundException(name);
+        }
+    }
 
     @Override
     public Role findRoleById(long id)

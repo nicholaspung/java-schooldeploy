@@ -3,7 +3,6 @@ package com.lambdaschool.school.controller;
 import com.lambdaschool.school.model.Course;
 import com.lambdaschool.school.model.ErrorDetail;
 import com.lambdaschool.school.service.CourseService;
-import com.lambdaschool.school.view.CountStudentsInCourses;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
