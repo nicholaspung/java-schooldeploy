@@ -35,7 +35,7 @@ public class CourseController
     @GetMapping(value = "/courses", produces = {"application/json"})
     public ResponseEntity<?> listAllCoursesByPage(@PageableDefault(page = 0, size = 3) Pageable pageable)
     {
-        ArrayList<Course> myCourses = courseService.findAll();
+        ArrayList<Course> myCourses = courseService.findAll(pageable);
         return new ResponseEntity<>(myCourses, HttpStatus.OK);
     }
 

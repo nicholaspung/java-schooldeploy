@@ -40,7 +40,7 @@ public class StudentController
     @GetMapping(value = "/students", produces = {"application/json"})
     public ResponseEntity<?> listAllStudentsByPage(@PageableDefault(page = 0, size = 3) Pageable pageable)
     {
-        List<Student> myStudents = studentService.findAll();
+        List<Student> myStudents = studentService.findAll(pageable);
         return new ResponseEntity<>(myStudents, HttpStatus.OK);
     }
 

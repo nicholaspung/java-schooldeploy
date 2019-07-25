@@ -2,23 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c07876d-7cda-4731-82de-42016651fd2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/APIsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/RolesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/APIOpenLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/documentation/ChangeLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/documentation/curl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/InstructorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/InstructorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/SchoolApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/SeedData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/service/CourseServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/SchoolApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/SchoolApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/config/AuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/config/AuthorizationServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lambdaschool/school/service/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lambdaschool/school/SchoolApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lambdaschool/school/SeedData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lambdaschool/school/controller/CourseControllerIntegrationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lambdaschool/school/controller/CourseControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lambdaschool/school/service/CourseServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,23 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/documentation/curl.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="44" column="158" selection-start-line="44" selection-start-column="158" selection-end-line="44" selection-end-column="158" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/LogoutController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="-158">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Instructor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/handlers/RestExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/Swagger2Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/WebConfig.java" />
@@ -95,22 +109,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/CourseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/service/CourseServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lambdaschool/school/SchoolApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/SchoolApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/RolesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/APIsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/APIOpenLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/documentation/curl.txt" />
       </list>
     </option>
   </component>
@@ -132,7 +148,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -252,47 +268,9 @@
               <item name="school" type="b2602c69:ProjectViewProjectNode" />
               <item name="school" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +288,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -319,17 +297,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lambdaschool.school.model" />
+      <recent name="com.lambdaschool.school.controller" />
       <recent name="com.lambdaschool.school.handlers" />
       <recent name="com.lambdaschool.school.exceptions" />
       <recent name="com.lambdaschool.school" />
-      <recent name="com.lambdaschool.school.model" />
-      <recent name="com.lambdaschool.school.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service" />
       <recent name="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model" />
     </key>
   </component>
@@ -435,9 +413,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CourseControllerTest.addNewCourse" />
         <item itemvalue="JUnit.CourseControllerIntegrationTest.givenPostACourse" />
         <item itemvalue="JUnit.CourseControllerTest.listAllCourses" />
-        <item itemvalue="JUnit.CourseControllerTest.addNewCourse" />
         <item itemvalue="JUnit.CourseControllerIntegrationTest.whenMeasuredResponseTime" />
         <item itemvalue="JUnit.CourseServiceImplTest.findCourseById" />
       </list>
@@ -461,17 +439,11 @@
       <workItem from="1564082958207" duration="3449000" />
       <workItem from="1564086744924" duration="583000" />
       <workItem from="1564087519070" duration="357000" />
-      <workItem from="1564088097897" duration="1342000" />
+      <workItem from="1564088097897" duration="6080000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CourseControllerTest_addNewCourse - 2019.07.25 at 12h 51m 04s.xml">
-      <configuration name="CourseControllerTest.addNewCourse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseControllerTest_listAllCourses - 2019.07.25 at 12h 51m 30s.xml">
-      <configuration name="CourseControllerTest.listAllCourses" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CourseControllerIntegrationTest_whenMeasuredResponseTime - 2019.07.25 at 12h 52m 54s.xml">
       <configuration name="CourseControllerIntegrationTest.whenMeasuredResponseTime" configurationId="JUnit" />
     </history-entry>
@@ -496,12 +468,18 @@
     <history-entry file="CourseControllerIntegrationTest_givenPostACourse - 2019.07.25 at 13h 13m 43s.xml">
       <configuration name="CourseControllerIntegrationTest.givenPostACourse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CourseControllerTest_addNewCourse - 2019.07.25 at 15h 08m 14s.xml">
+      <configuration name="CourseControllerTest.addNewCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseControllerTest_addNewCourse - 2019.07.25 at 15h 37m 22s.xml">
+      <configuration name="CourseControllerTest.addNewCourse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19359000" />
+    <option name="totallyTimeSpent" value="24097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27103302" />
@@ -543,26 +521,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/exceptions/ValidationError.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/ErrorDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/service/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -654,20 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="123" column="90" lean-forward="true" selection-start-line="123" selection-start-column="90" selection-end-line="123" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -682,13 +626,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -723,16 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/SeedData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lambdaschool/school/SchoolApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -828,47 +745,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/SchoolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -913,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/APIOpenLibrary.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -933,27 +806,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/LogoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/documentation/ChangeLog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/OpenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="474">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/LogoutController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/SchoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="152" selection-start-line="20" selection-start-column="152" selection-end-line="20" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lambdaschool/school/controller/CourseControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/SeedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lambdaschool/school/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/documentation/curl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="44" column="158" selection-start-line="44" selection-start-column="158" selection-end-line="44" selection-end-column="158" />
         </state>
       </provider>
     </entry>
@@ -1030,5 +1008,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean heroku:deploy -X" />
   </component>
 </project>

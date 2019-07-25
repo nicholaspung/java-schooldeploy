@@ -52,7 +52,6 @@ public class OpenController
         URI newRestaurantURI = ServletUriComponentsBuilder.fromUriString(request.getServerName() + ":" + request.getLocalPort() + "/users/user/{userId}").buildAndExpand(newuser.getUserid()).toUri();
         responseHeaders.setLocation(newRestaurantURI);
 
-
         return new ResponseEntity<>(null, responseHeaders, HttpStatus.CREATED);
     }
 
